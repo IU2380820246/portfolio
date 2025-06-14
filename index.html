@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Kumar - Student Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+            animation: fadeIn 2s ease-in;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            padding: 15px;
+            font-weight: bold;
+            background: #fff;
+            border-radius: 10px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Animations */
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .fade-in { animation: fadeIn 2s ease-in; }
+        .bounce:hover { transform: translateY(-5px); }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Jitendra Kumar</h1>
+        <p>BCA Student | Web Developer | Tech Enthusiast</p>
+    </header>
+    
+    <section class="container">
+        <div class="card">
+            <h2>Personal Information</h2>
+            <img src="myphato.jpg" alt="Jitendra Kumar" class="profile-pic">
+            <p><strong>Name:</strong> Jitendra Kumar</p>
+            <p><strong>Age:</strong> 19 years</p>
+            <p><strong>Semester / CGPA:</strong> 3rd Semester / 8.34</p>
+            <p><strong>Institution:</strong> Indus University, Ahmedabad</p>
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a 19-year-old BCA student passionate about technology and innovation. My goal is to become a successful web developer while exploring tech culture around India.</p>
+        </div>
+
+        <div class="card">
+            <h2>Academic Information</h2>
+            <p><strong>Course:</strong> Bachelor of Computer Applications (BCA)</p>
+            <p><strong>Semester:</strong> 3rd</p>
+            <p><strong>CGPA:</strong> 8.34</p>
+            <p><strong>Favorite Subject:</strong> Java</p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, PHP, Java, C, C++</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Hobbies and Interests</h2>
+            <ul>
+                <li>Playing online multiplayer games</li>
+                <li>Earning money online</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Achievements and Projects</h2>
+            <ul>
+                <li>Completed multiple web design projects using HTML, CSS, and JavaScript</li>
+                <li>Developed basic CRUD applications using PHP and MySQL</li>
+                <li>Created a portfolio website using React.js</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Goals</h2>
+            <ul>
+                <li>To become a successful web developer</li>
+                <li>To explore different parts of the country and understand tech culture around India</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Reflections</h2>
+            <p>Studying computer applications has helped me understand digital systems and how they can improve lives. Each project teaches me about real-world applications, problem-solving, and teamwork.</p>
+        </div>
+    </section>
+
+    <footer class="bounce">
+        <h2>Contact Me</h2>
+        <p><a href="#">GitHub</a> | <a href="#">LinkedIn</a> | <a href="#">Email</a></p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            alert("Welcome to Jitendra Kumar's Portfolio!");
+        });
+    </script>
+</body>
+</html>
